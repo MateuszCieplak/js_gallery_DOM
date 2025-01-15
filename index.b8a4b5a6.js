@@ -1,0 +1,2 @@
+var e=document.querySelector(".gallery__large-img"),t=document.querySelector(".gallery__list");function r(e){e.preventDefault()}document.querySelectorAll(".list-item__link").forEach(function(e){e.addEventListener("click",r)}),t.addEventListener("click",function(t){"IMG"===t.target.tagName&&e.setAttribute("src",t.target.src),"A"===t.target.tagName&&e.setAttribute("href",t.target.href)});
+//# sourceMappingURL=index.b8a4b5a6.js.map
